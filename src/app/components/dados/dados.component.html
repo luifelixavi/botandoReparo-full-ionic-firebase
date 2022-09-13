@@ -1,0 +1,49 @@
+
+  <ion-card>
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="/assets/img/avatar.png">
+      </ion-avatar>
+      <ion-label>
+        <h3>{{ nome }}</h3>
+        <p>{{ endereco }}</p>
+        <p>{{ atendimento }}</p>
+      </ion-label>
+    </ion-item>
+    <ion-row>
+      <ion-col center class="text-center">
+        <ion-button href="tel:{{ telefone }}">
+          <ion-icon name="call" color="warning"></ion-icon>
+          <div>{{ telefone }}</div>
+        </ion-button>
+      </ion-col>
+      
+        <ion-col center class="text-center">
+          <ion-button href="https://api.whatsapp.com/send?phone=55{{ whats }}text=Olá, te encontrei no Botando Reparo">
+            <ion-icon name="logo-whatsapp" color="success"></ion-icon>
+            <div>{{ whats }}</div>
+          </ion-button>
+        </ion-col>
+      
+    </ion-row>
+  <ion-card-header>
+    <ion-card-title>O que faço</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+  
+     <ion-list>
+    <ion-item-sliding *ngFor="let service of servicos">
+        <ion-label>
+          {{ service }}
+          </ion-label>
+    </ion-item-sliding>
+  </ion-list>
+  </ion-card-content>
+
+   <ion-card-header>
+    <ion-card-title>Biografia</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    {{ biografia }}
+  </ion-card-content>
+</ion-card>

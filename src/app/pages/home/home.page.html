@@ -1,0 +1,79 @@
+
+
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Botando Reparo</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content>
+
+  <ion-list *ngIf="!points.length">
+    <ion-item *ngFor="let item of [0, 1, 2]">
+      <ion-avatar slot="start">
+        <ion-skeleton-text animated></ion-skeleton-text>
+      </ion-avatar>
+      <ion-label>
+        <h3>
+          <ion-skeleton-text animated style="width: 50%"></ion-skeleton-text>
+        </h3>
+        <p>
+          <ion-skeleton-text animated style="width: 80%"></ion-skeleton-text>
+        </p>
+        <p>
+          <ion-skeleton-text animated style="width: 30%"></ion-skeleton-text>
+        </p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-item-sliding *ngFor="let point of points">
+      <ion-item button [routerLink]="['/point-details', point.id]">
+        <ion-avatar slot="start">
+          <img [src]="">
+        </ion-avatar>
+
+        <ion-label>
+          {{ point.title }}
+          <p>{{ point.description }}</p>
+          <p>{{ point.createdAt | date: 'short' }}</p>
+        </ion-label>
+      </ion-item>
+
+      <ion-item-options side="end">
+        <ion-item-option color="danger">
+          <ion-icon slot="top" name="trash"></ion-icon>
+          Excluir
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+
+
+
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="6">
+          <ion-button (click)="logout()" color="danger" expand="block">
+            Sair
+          </ion-button>
+        </ion-col>
+
+        <ion-col size="6">
+          <ion-button [disabled]="!user.isAdmin" color="secondary" routerLink="/point-details" expand="block">
+            Add ponto
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-footer>

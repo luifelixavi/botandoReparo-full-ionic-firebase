@@ -1,0 +1,450 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200127.193126.15788.0.001.json",
+    "dumpEventTime": "2020-01-27T19:31:26Z",
+    "dumpEventTimeStamp": "1580164286947",
+    "processId": 15788,
+    "cwd": "C:\\Users\\Luiz Felipe\\Documents\\botando",
+    "commandLine": [
+      "node",
+      "C:\\Users\\Luiz Felipe\\AppData\\Roaming\\npm\\\\node_modules\\native-run\\bin\\native-run",
+      "--version"
+    ],
+    "nodejsVersion": "v12.13.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.13.1",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.13.1/node-v12.13.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.13.1/node-v12.13.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.13.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18362",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz",
+        "speed": 2594,
+        "user": 30942375,
+        "nice": 0,
+        "sys": 30567750,
+        "idle": 215173843,
+        "irq": 1779812
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz",
+        "speed": 2594,
+        "user": 28884859,
+        "nice": 0,
+        "sys": 25248453,
+        "idle": 222550437,
+        "irq": 303171
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz",
+        "speed": 2594,
+        "user": 32067515,
+        "nice": 0,
+        "sys": 27375859,
+        "idle": 217240375,
+        "irq": 306234
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz",
+        "speed": 2594,
+        "user": 32929234,
+        "nice": 0,
+        "sys": 29944328,
+        "idle": 213810187,
+        "irq": 265265
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "08:11:96:61:e7:10",
+        "address": "fe80::c04:de29:f390:3f4b",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 3
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "08:11:96:61:e7:10",
+        "address": "192.168.0.103",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DESKTOP-DBEMRBJ"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff613bb1729",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff613bb5b4c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff613bb4b08",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff613ca369b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6144a82de",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff614490321",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61435dbec",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff614365cf1",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61435b353",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff614359b24",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61437adf5",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6140e6e19",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6148d404d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61493b168",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff614853bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff61484cf8c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff614853bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff614853bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff614853bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff614853bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff614851191",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff614850d7c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6143b62d3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6143b5c56",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff614486ecb",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff613cc9dde",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff613cca087",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff613cc8f5a",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff613c6ba95",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff613cc9a73",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff613b8667c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff614987138",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ffa26857bd4",
+      "symbol": "BaseThreadInitThunk+20"
+    },
+    {
+      "pc": "0x00007ffa27a8ced1",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 3162112,
+    "totalCommittedMemory": 3162112,
+    "usedMemory": 2416560,
+    "availableMemory": 2195934064,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047488,
+        "used": 1047488,
+        "available": 0
+      },
+      "old_space": {
+        "memorySize": 1159168,
+        "committedMemory": 1159168,
+        "capacity": 944368,
+        "used": 940552,
+        "available": 3816
+      },
+      "code_space": {
+        "memorySize": 425984,
+        "committedMemory": 425984,
+        "capacity": 152064,
+        "used": 152064,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 266240,
+        "committedMemory": 266240,
+        "capacity": 244160,
+        "used": 244160,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047488,
+        "used": 0,
+        "available": 1047488
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 0.046,
+    "kernelCpuSeconds": 0.078,
+    "cpuConsumptionPercent": 12.4,
+    "maxRss": 19595264,
+    "pageFaults": {
+      "IORequired": 4973,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 0,
+      "writes": 97
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=C:": "C:\\Users\\Luiz Felipe\\Documents\\botando",
+    "allusersprofile": "C:\\ProgramData",
+    "android_sdk_root": "‪C:\\Program Files (x86)\\Android\\android-sdk",
+    "appdata": "C:\\Users\\Luiz Felipe\\AppData\\Roaming",
+    "classpath": ".;C:\\Program Files\\Java\\jdk1.8.0_231\\lib;C:\\Program Files\\Java\\jdk1.8.0_231\\lib\\tools.jar;C:\\Program Files\\Java\\jdk1.8.0_231\\lib\\dt.jar;C:\\Program Files\\Java\\jdk1.8.0_231\\lib\\htmlconverter.jar;C:\\Program Files\\Java\\jdk1.8.0_231\\jre\\lib;C:\\Program Files\\Java\\jdk1.8.0_231\\jre\\lib\\rt.jar",
+    "commonprogramfiles": "C:\\Program Files\\Common Files",
+    "commonprogramfiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "commonprogramw6432": "C:\\Program Files\\Common Files",
+    "computername": "DESKTOP-DBEMRBJ",
+    "comspec": "C:\\Windows\\system32\\cmd.exe",
+    "dp0": "C:\\Users\\Luiz Felipe\\AppData\\Roaming\\npm\\",
+    "driverdata": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "force_color": "0",
+    "fps_browser_app_profile_string": "Internet Explorer",
+    "fps_browser_user_profile_string": "Default",
+    "gradle_home": "C:\\gradle-6.0.1",
+    "homedrive": "C:",
+    "homepath": "\\Users\\Luiz Felipe",
+    "ionic_cli_bin": "C:\\Users\\Luiz Felipe\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic",
+    "ionic_cli_lib": "C:\\Users\\Luiz Felipe\\AppData\\Roaming\\npm\\node_modules\\ionic",
+    "ionic_cli_local_error": "LOCAL_CLI_NOT_FOUND",
+    "java_home": "C:\\Program Files\\Java\\jdk1.8.0_231",
+    "localappdata": "C:\\Users\\Luiz Felipe\\AppData\\Local",
+    "logonserver": "\\\\DESKTOP-DBEMRBJ",
+    "number_of_processors": "4",
+    "onedrive": "C:\\Users\\Luiz Felipe\\OneDrive",
+    "os": "Windows_NT",
+    "path": "C:\\Users\\Luiz Felipe\\Documents\\botando\\node_modules\\.bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\apache-ant-1.10.7\\bin;‪C:\\Program Files (x86)\\Android\\android-sdk\\tools\\bin;C:\\Program Files\\Java\\jdk1.8.0_231\\bin;C:\\gradle-6.0.1\\bin;‪C:\\Program Files (x86)\\Android\\android-sdk\\platform-tools;‪C:\\Program Files (x86)\\Android\\android-sdk\\emulator;‪C:\\Program Files (x86)\\Android\\android-sdk\\build-tools;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Users\\Luiz Felipe\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Luiz Felipe\\AppData\\Roaming\\npm;C:\\apache-ant-1.9.14-bin\\apache-ant-1.9.14\\bin;‪C:\\Program Files (x86)\\Java\\jdk1.8.0_231\\bin\\;C:\\Program Files\\Java\\jdk1.8.0_231\\bin;‪C:\\Program Files (x86)\\Android\\android-sdk\\tools\\bin;‪C:\\Program Files (x86)\\Android\\android-sdk\\platform-tools;‪C:\\Program Files (x86)\\Android\\android-sdk\\emulator;C:\\gradle-6.0.1\\bin;",
+    "pathext": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "processor_architecture": "AMD64",
+    "processor_identifier": "Intel64 Family 6 Model 42 Stepping 7, GenuineIntel",
+    "processor_level": "6",
+    "processor_revision": "2a07",
+    "programdata": "C:\\ProgramData",
+    "programfiles": "C:\\Program Files",
+    "programfiles(x86)": "C:\\Program Files (x86)",
+    "programw6432": "C:\\Program Files",
+    "prompt": "$P$G",
+    "psmodulepath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\PowerShell\\Modules\\",
+    "public": "C:\\Users\\Public",
+    "sessionname": "Console",
+    "systemdrive": "C:",
+    "systemroot": "C:\\Windows",
+    "temp": "C:\\Users\\LUIZFE~1\\AppData\\Local\\Temp",
+    "tmp": "C:\\Users\\LUIZFE~1\\AppData\\Local\\Temp",
+    "userdomain": "DESKTOP-DBEMRBJ",
+    "userdomain_roamingprofile": "DESKTOP-DBEMRBJ",
+    "username": "Luiz Felipe",
+    "userprofile": "C:\\Users\\Luiz Felipe",
+    "windir": "C:\\Windows",
+    "_prog": "node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\System32\\KERNEL32.DLL",
+    "C:\\Windows\\System32\\KERNELBASE.dll",
+    "C:\\Windows\\System32\\WS2_32.dll",
+    "C:\\Windows\\System32\\RPCRT4.dll",
+    "C:\\Windows\\System32\\ADVAPI32.dll",
+    "C:\\Windows\\System32\\msvcrt.dll",
+    "C:\\Windows\\System32\\sechost.dll",
+    "C:\\Windows\\System32\\USER32.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\System32\\win32u.dll",
+    "C:\\Windows\\System32\\GDI32.dll",
+    "C:\\Windows\\System32\\gdi32full.dll",
+    "C:\\Windows\\System32\\msvcp_win.dll",
+    "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\System32\\PSAPI.DLL",
+    "C:\\Windows\\System32\\CRYPT32.dll",
+    "C:\\Windows\\System32\\MSASN1.dll",
+    "C:\\Windows\\System32\\bcrypt.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\System32\\profapi.dll",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\SYSTEM32\\WINMMBASE.dll",
+    "C:\\Windows\\System32\\cfgmgr32.dll",
+    "C:\\Windows\\System32\\bcryptPrimitives.dll",
+    "C:\\Windows\\System32\\IMM32.DLL",
+    "C:\\Windows\\System32\\powrprof.dll",
+    "C:\\Windows\\System32\\UMPDC.dll",
+    "C:\\Windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\System32\\combase.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\System32\\kernel.appcore.dll",
+    "C:\\Windows\\System32\\NSI.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\System32\\winrnr.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\system32\\wshbth.dll"
+  ]
+}

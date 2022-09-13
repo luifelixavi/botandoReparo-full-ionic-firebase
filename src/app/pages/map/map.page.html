@@ -1,0 +1,36 @@
+
+<ion-content>
+    <div #map id="map">
+       <ion-row>
+          <ion-col>
+            <div>     
+              <ion-title class="text-center">
+                Botando Reparo
+              </ion-title>
+            </div>
+          </ion-col>
+        </ion-row>
+
+    	<ion-fab horizontal="end" vertical="top" slot="fixed">
+        <ion-fab-button color="light">
+          <ion-icon name="add"></ion-icon>
+        </ion-fab-button>
+
+        <ion-fab-list  side="start">
+          <ion-fab-button color="dark" [routerLink]="['/login']">
+            <ion-icon name="person"></ion-icon>
+          </ion-fab-button>
+
+          <ion-fab-button color="dark">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </ion-fab-button>
+
+          <a href="fb://facebook.com/enactusunifal">
+            <ion-fab-button color="dark">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </ion-fab-button>
+          </a>
+        </ion-fab-list>
+      </ion-fab>
+    </div>
+</ion-content>
